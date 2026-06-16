@@ -2,7 +2,6 @@
 *.mcworld
 
 # Environment files
-.env
 /.direnv
 
 # Build artifacts
@@ -11,7 +10,6 @@
 
 # IDE/editor files
 .idea/
-/.vscode/
 .claude/
 /*.swp
 *.iml
@@ -56,3 +54,5 @@ gen/
 # Local-only: stray diff + Teddy fork clone (must never be committed)
 /diff.diff
 /teddy-arnis/
+config.bat
+node_modules
